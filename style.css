@@ -1,0 +1,155 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.header-logo-accent {
+    color: #2196F3;
+}
+
+.header-menu-link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.header-menu-link:hover {
+    color: #2196F3;
+}
+
+.header-contacts-link {
+    color:#212121;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.header-contacts-link[href^="mailto"] {
+    color: #2196F3;
+}
+
+.header-contacts-link[href^="tel"] {
+    color: #757575;
+}
+
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+}
+
+.hero-button {
+    border-radius: 4px;
+    background: #2196F3;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border: none;
+    cursor: pointer;
+}
+
+.features-title {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+}
+
+.features-text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.about-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.team-photo {
+    width: 270px;
+    height: 260px;
+}
+
+.team-name {
+    color:#212121;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+.team-role {
+    color: #757575;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+
+.footer-logo-accent {
+    color: #2196F3;
+}
+
+.footer-item {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    font-style: normal;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+    font-style: normal;
+}
