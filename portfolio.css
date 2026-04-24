@@ -12,7 +12,6 @@ body {
     font-family: "Roboto";
 }
 
-/* LOGO */
 .logo {
     font-family: Raleway;
     color: var(--black);
@@ -26,7 +25,6 @@ body {
     color: var(--blue);
 }
 
-/* NAV */
 .nav-link {
     color: var(--black);
     font-size: 14px;
@@ -39,7 +37,6 @@ body {
     color: var(--blue);
 }
 
-/* CONTACTS */
 .contacts-link {
     font-size: 14px;
     font-weight: 500;
@@ -55,7 +52,6 @@ body {
     color: var(--gray);
 }
 
-/* FOOTER */
 .footer {
     background-color: var(--dark);
 }
@@ -87,7 +83,6 @@ body {
     text-decoration: none;
 }
 
-/* PROJECTS */
 .projects-item {
     width: 370px;
     border: 1px solid var(--light-gray);
@@ -113,7 +108,6 @@ body {
     line-height: 30px;
 }
 
-/* FILTERS */
 .filters-btn {
     font-family: "Roboto";
     color: var(--black);

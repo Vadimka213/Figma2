@@ -12,7 +12,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* LOGO */
 .logo {
     font-family: Raleway;
     font-size: 26px;
@@ -26,7 +25,6 @@ body {
     color: var(--blue);
 }
 
-/* NAV */
 .nav-link {
     color: var(--black);
     font-size: 14px;
@@ -39,7 +37,6 @@ body {
     color: var(--blue);
 }
 
-/* CONTACTS */
 .contacts-link {
     color: var(--black);
     font-size: 14px;
@@ -56,7 +53,6 @@ body {
     color: var(--gray);
 }
 
-/* HERO */
 .hero {
     background-color: var(--dark);
     text-align: center;
@@ -82,7 +78,6 @@ body {
     cursor: pointer;
 }
 
-/* FEATURES */
 .features-title {
     color: var(--black);
     font-size: 14px;
@@ -97,7 +92,6 @@ body {
     letter-spacing: 0.42px;
 }
 
-/* ABOUT */
 .about-title {
     color: var(--black);
     text-align: center;
@@ -110,7 +104,6 @@ body {
     width: 300px;
 }
 
-/* TEAM */
 .team {
     background: var(--light);
 }
@@ -141,7 +134,6 @@ body {
     letter-spacing: 0.48px;
 }
 
-/* FOOTER */
 .footer {
     background-color: var(--dark);
 }
