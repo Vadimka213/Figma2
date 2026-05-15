@@ -1,4 +1,4 @@
-    :root{
+ :root{
     --header-color:#2196F3;
     --mainul-color:#212121;
     --mainulfon-color:#F5F4FA;
@@ -14,6 +14,10 @@
     margin: 0;
     }
 
+    header .logo-partf {
+        color:#000
+    }
+
     .logotype{
     color: var(--header-color);
     font-family: "Raleway", sans-serif;
@@ -23,10 +27,6 @@
     line-height: 1.19;
     letter-spacing: 0.78px;
     text-decoration: none;
-    }
-
-    .logotype :hover{
-        color: var(--logo-color);
     }
 
     .logo-partf{
@@ -40,8 +40,8 @@
     margin-right: 93px;
      }
 
-    .logo-partf :hover{
-        color: var(--footer-color);
+    .logo-partf{
+        color: #FFF;
     }
 
     .logo-part{
@@ -114,12 +114,12 @@
     }
 
     .footer-items:hover{
-        color: var(--footer-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+
     }
 
     .main-item:hover{
@@ -338,7 +338,6 @@
     .container{
         width: 1200px;
     margin: 0 auto;
-        outline: 1px solid red;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -396,72 +395,14 @@
     margin-top: 9px;
     }
 
-    .work{
-        padding: 94px 0;
+    .footer-link:hover {
+        color:#FFF;
     }
 
-    .logo-part :hover{
-        color: var(--logo-color);
+    .footer-number:hover {
+        color: var(--footer-text-color);
     }
 
-    .hero{
-        background-color: #FFFFFF;
-    }
-
-    .main-list{
-        display: flex;
-    padding-left: 213px;
-    padding-right: 213px;
-    gap: 8px;
-    border-radius: 4px;
-    padding-bottom: 34px;
-    }
-
-    .header-detale{
-        display: flex;
-    }
-
-    .main-list :hover{
-        color: var(--footer-color);
-     }
-
-        .main-itemss{
-        background-color: var(--mainulfon-color);
-    padding: 6px 22px;
-    border-radius: 4px;
-    border: none;
-    margin-top: 100px;
-    }
-     
-.filter-part{
-    color: var(--mainul-color);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0.48px;
-padding-top: 6px;
-padding-bottom: 6px;
-padding-left: 22px;
-padding-right: 22px;
-white-space: nowrap;
-display: flex;
-background-color: var(--mainulfon-color);
-color: #000;
-border-radius: 4px;
-}
-
-    .filter-part:hover{
-        background-color: var(--header-color);
-     color: #FFFFFF;
-    }
-
-    .main-info{
-        display: grid;
-    flex-wrap: wrap;
-  grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding-bottom: 94px;
+        .footer-mail:hover {
+        color: var(--footer-text-color);
     }
