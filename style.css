@@ -505,18 +505,11 @@ width: 100%;
     gap: 30px;
     }
 
-
-
-
-
     .work-item{
         margin-left: 0;
     width: 370px;
     height: 294px;
- 
     }
-
-
 
     .team-list{
         display: flex;
@@ -524,46 +517,21 @@ width: 100%;
         justify-content: center;
     }
 
-
-
-
-
-
     .footer-items{
     margin-top: 9px;
     }
 
-
-
-
-
-   
-
     .hero{
         background-color: #FFFFFF;
-         margin-top: 94px;
-    margin-bottom: 94px;
-    
+         padding-top: 94px;
+    padding-bottom: 94px; 
     }
-
-
-
-
 
     .main-list{
         display: flex;
     gap: 8px;
     justify-content: center;
-  
     }
-
-
-
-
-
-
- 
-
 
     .main-list:hover{
         color: var(--footer-color);
@@ -584,8 +552,6 @@ width: 100%;
 border-style: groove;
 }
 
-    
-     
 .filter-part{
     color: var(--mainul-color);
 text-align: center;
@@ -604,18 +570,12 @@ display: flex;
 background-color: var(--mainulfon-color);
 color: #000;
 border-radius: 4px;
-
-
 }
-
 
     .filter-part:hover{
         background-color: var(--header-color);
      color: #FFFFFF;
     }
-
-
-
 
     .main-info{
         display: flex;
@@ -623,7 +583,7 @@ border-radius: 4px;
     
 display: grid;
     grid-template-columns: repeat(3, 1fr);
-margin-top: 50px;
+padding-top: 50px;
     }
 
 
@@ -646,5 +606,5 @@ margin-top: 50px;
     
 display: grid;
     grid-template-columns: repeat(3, 1fr);
-margin-top: 50px;
+padding-top: 50px;
     }
