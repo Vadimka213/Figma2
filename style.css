@@ -229,7 +229,7 @@
 
 
 .team-div{
-    padding-bottom: 30px;
+    padding-top: 30px;
     width: 250px;
      display: block;
     width: 100%;
@@ -583,7 +583,7 @@ border-radius: 4px;
     
 display: grid;
     grid-template-columns: repeat(3, 1fr);
-padding-top: 50px;
+margin-top: 50px;
     }
 
 
@@ -606,5 +606,5 @@ padding-top: 50px;
     
 display: grid;
     grid-template-columns: repeat(3, 1fr);
-padding-top: 50px;
+margin-top: 50px;
     }
