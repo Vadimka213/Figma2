@@ -42,7 +42,6 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    margin-right: 20px;
     }
 
 
@@ -229,7 +228,7 @@
 
 
 .team-div{
-    padding-top: 30px;
+    padding-top: 20x;
     width: 250px;
      display: block;
     width: 100%;
@@ -495,7 +494,6 @@ width: 100%;
     .header-navigation{
         display: flex;
         align-items: center;
-    margin-right: 93px;
     }
 
 
