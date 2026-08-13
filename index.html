@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,22 +13,43 @@
 </head>
 <body>
 <header class="header">
-<div class="container">
-<a class="header-logo" href="./index.html">
-  <span class="header-logo-blue">Web</span>Studio
-</a>
-<nav class="header-navigation">
-<ul class="header-list">
- <li class="header-item"><a class="header-link" href="./index.html">Студія</a></li>
- <li class="header-item"><a class="header-link" href="./portfolio.html">Портфоліо</a></li>
- <li class="header-item"><a class="header-link" href="">Контакти</a></li>  
-</ul>
-</nav>
-<ul class="header-contacts">
-    <li class="header-contacts-item"><a class="header-contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-    <li class="header-contacts-item"><a class="header-contacts-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
-</ul>
-</div>
+  <div class="container">
+    <a class="header-logo" href="./index.html">
+      <span class="header-logo-blue">Web</span>Studio
+    </a>
+
+    <nav class="header-navigation" id="desktop-navigation">
+      <ul class="header-list">
+        <li class="header-item"><a class="header-link" href="./index.html">Студія</a></li>
+        <li class="header-item"><a class="header-link" href="./portfolio.html">Портфоліо</a></li>
+        <li class="header-item"><a class="header-link" href="">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <ul class="header-contacts">
+      <li class="header-contacts-item"><a class="header-contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li class="header-contacts-item"><a class="header-contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
+
+    <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Відкрити меню">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <button class="mobile-menu-close" type="button" aria-label="Закрити меню">&times;</button>
+      <nav class="mobile-navigation">
+        <ul class="mobile-navigation-list">
+          <li><a class="mobile-navigation-link" href="./index.html">Студія</a></li>
+          <li><a class="mobile-navigation-link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="mobile-navigation-link" href="">Контакти</a></li>
+        </ul>
+      </nav>
+      <ul class="mobile-contacts">
+        <li><a class="mobile-contact-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="mobile-contact-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
+    </div>
+  </div>
 </header>  
 <main class="main">
 <section class="hero">
@@ -109,5 +130,6 @@
 </ul>
 </div>
 </footer>
+  <script src="./mobile-menu.js"></script>
 </body>
 </html>
