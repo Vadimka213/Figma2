@@ -122,8 +122,8 @@ height: 40.0px;
 
 }
 .hero{
-padding-top: 200px;
-padding-bottom: 200px;
+padding-top: 118px;
+padding-bottom: 118px;
     background: #2F303A;
   display: flex;
   align-items: center;
@@ -133,25 +133,23 @@ gap: 30px;
 }
 .hero-title{
     flex-shrink: 0;
-color: var(--text-white);
+
+
+    color: #FFF;
+text-align: center;
 font-family: Roboto;
-font-size: 44px;
+font-size: 26px;
 font-style: normal;
 font-weight: 900;
-line-height: 1.36;
-letter-spacing: 2.64px;
+line-height: 42px;
+letter-spacing: 1.56px;
 text-transform: uppercase;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-
         width: 100%;
         min-width: 0;
 
 }
 .hero-button{
-width: 216.0px;
+width: 200.0px;
 height: 50.0px;
 background-color:var(--accent-color);
 color: var(--text-white);
@@ -574,7 +572,30 @@ display: flex;
 display: block;
 text-decoration: none;
 }
+.hero{
+padding-top: 118px;
+padding-bottom: 118px;
+    background: #2F303A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+gap: 30px;
+}
+.hero-title{
+    width: 360.0px;
+height: 84.0px;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 26px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 1.56px;
+text-transform: uppercase;
 
+}
 
 
     .features-item{
@@ -662,12 +683,40 @@ list-style: none;
 gap: 50px;
 
     }
+    .hero{
+padding-top: 200px;
+padding-bottom: 200px;
+    background: #2F303A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+gap: 30px;
+}
     .hero-title{
         width: 696.0px;
 height: 120.0px;
 
     }
+.hero-button{
+    width: 216.0px;
+height: 50.0px;
+}
+.hero-title{
+    width: 696.0px;
+height: 120.0px;
 
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+
+}
     .features{
 padding-top: 94px;
 padding-bottom: 94px;
