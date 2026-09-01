@@ -1171,4 +1171,95 @@ align-items: flex-start;
         line-height: 1.62;
         letter-spacing: 0.48px;
     }
+}@media (max-width: 479px) {
+
+    .header-logo {
+        font-size: 22px;
+        letter-spacing: 0.66px;
+    }
+
+    .header-menu {
+        margin-left: 25px;
+    }
+
+    .fillters {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .fillters .container {
+        width: auto;
+        height: 54px;
+    }
+
+    .fillters-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fillters-button {
+        padding: 6px 20px;
+        border: none;
+        border-radius: 4px;
+
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.48px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fillters .container {
+        width: 575px;
+    }
+
+    .fillters-list {
+        flex-wrap: nowrap;
+    }
+
+    .fillters-item {
+        flex-shrink: 0;
+    }
+
+    .fillters-button {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .fillters .container {
+        width: 600px;
+    }
+
+    .fillters-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .fillters-item {
+        flex-shrink: 0;
+    }
+
+    .fillters-button {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .fillters-item:nth-child(2) .fillters-button {
+    width: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+}
 }
