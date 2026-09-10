@@ -1263,3 +1263,63 @@ align-items: flex-start;
     white-space: nowrap;
 }
 }
+
+.team {
+    background-color: #F5F4FA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.team-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.team-list {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    gap: 30px;
+}
+
+.team-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 0 30px;
+    list-style: none;
+}
+
+.team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+}
+
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.header-contacts-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.header-icons {
+    fill: currentColor;
+}
+
+.header-contacts-item:first-child .header-contacts-link {
+    color: var(--text-color);
+}
+
+.header-contacts-item:nth-child(2) .header-contacts-link {
+    color: var(--text-color);
+}
