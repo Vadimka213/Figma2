@@ -1292,17 +1292,19 @@ align-items: flex-start;
 }
 
 .team-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
+    color: #AFB1B8;
+    transition: color 250ms ease;
 }
 
 .team-icon {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: currentColor;
+}
+
+.team-link:hover,
+.team-link:focus {
+    color: var(--accent-color);
 }
 
 .header-contacts-link {
@@ -1312,14 +1314,17 @@ align-items: flex-start;
     text-decoration: none;
 }
 
+.header-contacts-link {
+    color: var(--text-color);
+    transition: color 250ms ease;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--accent-color);
+}
+
 .header-icons {
     fill: currentColor;
-}
-
-.header-contacts-item:first-child .header-contacts-link {
-    color: var(--text-color);
-}
-
-.header-contacts-item:nth-child(2) .header-contacts-link {
-    color: var(--text-color);
+    transition: fill 250ms ease;
 }
