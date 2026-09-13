@@ -353,15 +353,183 @@ margin: 10px;
 margin-bottom: 30px;
 }
 
-.footer{
+.footer {
     background-color: #2F303A;
-    margin: 0%;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer-box{
-    text-align: center;
+.footer-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-info {
+    width: 270px;
+}
+
+.footer-logo {
+    color: var(--text-white);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+
+.footer-logo-blue {
+    color: var(--accent-color);
+}
+
+.contacts {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.contacts-item {
+    margin-bottom: 9px;
+}
+
+.contacts-address {
+    color: var(--text-white);
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 0 0 9px;
+}
+
+.contacts-email,
+.contacts-tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.contacts-email:hover,
+.contacts-tel:hover {
+    color: var(--accent-color);
+}
+
+/* СОЦМЕРЕЖІ */
+
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social-title {
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    margin-bottom: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-white);
+
+    transition:
+        background-color 250ms ease,
+        color 250ms ease;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--text-white);
+}
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+/* ПІДПИСКА */
+
+.footer-subscribe {
+    margin-left: 93px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+
+    padding: 0 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    background-color: transparent;
+    color: var(--text-white);
+
+    outline: none;
+}
+
+.subscribe-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-input:focus {
+    border-color: var(--accent-color);
+}
+
+.subscribe-button {
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: var(--accent-color);
+    color: var(--text-white);
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;
+
+    transition: background-color 250ms ease;
+}
+
+.subscribe-button:hover {
+    background-color: #188ce8;
+}
+
+.subscribe-icon {
+    font-size: 20px;
 }
 
 .contacts{
@@ -711,11 +879,17 @@ align-items: flex-start;
     gap: 30px;
     }
 
-    .portfolio-item{
-    background-color: var(--text-white);    
+    .portfolio-item {
+    background-color: var(--text-white);
     border: 1px solid var(--portfolio-border);
     width: 100%;
-    }
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-item:hover {
+    box-shadow: ...
+}
 }
 
 
@@ -1286,14 +1460,20 @@ align-items: flex-start;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 0 0 30px;
     list-style: none;
 }
 
 .team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     color: #AFB1B8;
-    transition: color 250ms ease;
+    transition: color 250ms ease, background-color 250ms ease;
 }
 
 .team-icon {
@@ -1304,7 +1484,8 @@ align-items: flex-start;
 
 .team-link:hover,
 .team-link:focus {
-    color: var(--accent-color);
+    color: #fff;
+    background-color: var(--accent-color);
 }
 
 .header-contacts-link {
@@ -1327,4 +1508,59 @@ align-items: flex-start;
 .header-icons {
     fill: currentColor;
     transition: fill 250ms ease;
+}
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #fff;
+}
+
+.clients .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+}
+
+.clients-link {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    color: #AFB1B8;
+
+    transition: border-color 250ms ease,
+                color 250ms ease;
+}
+
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color: #2196F3;
+    color: #2196F3;
 }
