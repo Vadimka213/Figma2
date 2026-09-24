@@ -149,7 +149,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #212121;
+  color: #757575;
   text-decoration: none;
   transition: color 250ms ease;
 }
@@ -1689,4 +1689,64 @@ body.menu-open {
     width: 200px;
     height: 50px;
   }
+}
+
+@media (max-width: 479px) {
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-left: 0;
+  }
+
+  .footer-list {
+    align-items: center;
+  }
+
+  .footer-map,
+  .footer-mail,
+  .footer-phone {
+    margin-left: 0;
+  }
+
+  .footer-social {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-social-list {
+    justify-content: center;
+  }
+
+  .footer-subscribe {
+    width: 100%;
+    text-align: center;
+  }
+
+  .subscribe-form {
+    justify-content: center;
+  }
+
+  .subscribe-input {
+    width: 100%;
+  }
+}
+
+.info-img {
+  display: block;
+  width: 100%;
+  height: 100%px;
+  object-fit: contain;
+  margin: 0 auto 30px;
 }
